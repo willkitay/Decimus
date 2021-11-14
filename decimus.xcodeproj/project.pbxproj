@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9599802740F35A00C73886 /* decimusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95997F2740F35A00C73886 /* decimusApp.swift */; };
+		EC9599822740F35A00C73886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599812740F35A00C73886 /* ContentView.swift */; };
+		EC9599842740F35B00C73886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9599832740F35B00C73886 /* Assets.xcassets */; };
+		EC9599872740F35B00C73886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9599862740F35B00C73886 /* Preview Assets.xcassets */; };
+		EC9599892740F35B00C73886 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599882740F35B00C73886 /* Persistence.swift */; };
+		EC95998C2740F35B00C73886 /* decimus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC95998A2740F35B00C73886 /* decimus.xcdatamodeld */; };
+		EC9599962740F35B00C73886 /* decimusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599952740F35B00C73886 /* decimusTests.swift */; };
+		EC9599A02740F35B00C73886 /* decimusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95999F2740F35B00C73886 /* decimusUITests.swift */; };
+		EC9599A22740F35B00C73886 /* decimusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9599922740F35B00C73886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9599742740F35A00C73886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC95997B2740F35A00C73886;
+			remoteInfo = decimus;
+		};
+		EC95999C2740F35B00C73886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9599742740F35A00C73886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC95997B2740F35A00C73886;
+			remoteInfo = decimus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC95997C2740F35A00C73886 /* decimus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = decimus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC95997F2740F35A00C73886 /* decimusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusApp.swift; sourceTree = "<group>"; };
+		EC9599812740F35A00C73886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC9599832740F35B00C73886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9599862740F35B00C73886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9599882740F35B00C73886 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EC95998B2740F35B00C73886 /* decimus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = decimus.xcdatamodel; sourceTree = "<group>"; };
+		EC9599912740F35B00C73886 /* decimusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = decimusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9599952740F35B00C73886 /* decimusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusTests.swift; sourceTree = "<group>"; };
+		EC95999B2740F35B00C73886 /* decimusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = decimusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC95999F2740F35B00C73886 /* decimusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusUITests.swift; sourceTree = "<group>"; };
+		EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9599792740F35A00C73886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC95998E2740F35B00C73886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9599982740F35B00C73886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9599732740F35A00C73886 = {
+			isa = PBXGroup;
+			children = (
+				EC95997E2740F35A00C73886 /* decimus */,
+				EC9599942740F35B00C73886 /* decimusTests */,
+				EC95999E2740F35B00C73886 /* decimusUITests */,
+				EC95997D2740F35A00C73886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC95997D2740F35A00C73886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC95997C2740F35A00C73886 /* decimus.app */,
+				EC9599912740F35B00C73886 /* decimusTests.xctest */,
+				EC95999B2740F35B00C73886 /* decimusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC95997E2740F35A00C73886 /* decimus */ = {
+			isa = PBXGroup;
+			children = (
+				EC95997F2740F35A00C73886 /* decimusApp.swift */,
+				EC9599812740F35A00C73886 /* ContentView.swift */,
+				EC9599832740F35B00C73886 /* Assets.xcassets */,
+				EC9599882740F35B00C73886 /* Persistence.swift */,
+				EC95998A2740F35B00C73886 /* decimus.xcdatamodeld */,
+				EC9599852740F35B00C73886 /* Preview Content */,
+			);
+			path = decimus;
+			sourceTree = "<group>";
+		};
+		EC9599852740F35B00C73886 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC9599862740F35B00C73886 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC9599942740F35B00C73886 /* decimusTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9599952740F35B00C73886 /* decimusTests.swift */,
+			);
+			path = decimusTests;
+			sourceTree = "<group>";
+		};
+		EC95999E2740F35B00C73886 /* decimusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC95999F2740F35B00C73886 /* decimusUITests.swift */,
+				EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */,
+			);
+			path = decimusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC95997B2740F35A00C73886 /* decimus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9599A52740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimus" */;
+			buildPhases = (
+				EC9599782740F35A00C73886 /* Sources */,
+				EC9599792740F35A00C73886 /* Frameworks */,
+				EC95997A2740F35A00C73886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = decimus;
+			productName = decimus;
+			productReference = EC95997C2740F35A00C73886 /* decimus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9599902740F35B00C73886 /* decimusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9599A82740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimusTests" */;
+			buildPhases = (
+				EC95998D2740F35B00C73886 /* Sources */,
+				EC95998E2740F35B00C73886 /* Frameworks */,
+				EC95998F2740F35B00C73886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9599932740F35B00C73886 /* PBXTargetDependency */,
+			);
+			name = decimusTests;
+			productName = decimusTests;
+			productReference = EC9599912740F35B00C73886 /* decimusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC95999A2740F35B00C73886 /* decimusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9599AB2740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimusUITests" */;
+			buildPhases = (
+				EC9599972740F35B00C73886 /* Sources */,
+				EC9599982740F35B00C73886 /* Frameworks */,
+				EC9599992740F35B00C73886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC95999D2740F35B00C73886 /* PBXTargetDependency */,
+			);
+			name = decimusUITests;
+			productName = decimusUITests;
+			productReference = EC95999B2740F35B00C73886 /* decimusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9599742740F35A00C73886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EC95997B2740F35A00C73886 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EC9599902740F35B00C73886 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC95997B2740F35A00C73886;
+					};
+					EC95999A2740F35B00C73886 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC95997B2740F35A00C73886;
+					};
+				};
+			};
+			buildConfigurationList = EC9599772740F35A00C73886 /* Build configuration list for PBXProject "decimus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9599732740F35A00C73886;
+			productRefGroup = EC95997D2740F35A00C73886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC95997B2740F35A00C73886 /* decimus */,
+				EC9599902740F35B00C73886 /* decimusTests */,
+				EC95999A2740F35B00C73886 /* decimusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC95997A2740F35A00C73886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9599872740F35B00C73886 /* Preview Assets.xcassets in Resources */,
+				EC9599842740F35B00C73886 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC95998F2740F35B00C73886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9599992740F35B00C73886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9599782740F35A00C73886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9599892740F35B00C73886 /* Persistence.swift in Sources */,
+				EC9599822740F35A00C73886 /* ContentView.swift in Sources */,
+				EC95998C2740F35B00C73886 /* decimus.xcdatamodeld in Sources */,
+				EC9599802740F35A00C73886 /* decimusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC95998D2740F35B00C73886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9599962740F35B00C73886 /* decimusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9599972740F35B00C73886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9599A02740F35B00C73886 /* decimusUITests.swift in Sources */,
+				EC9599A22740F35B00C73886 /* decimusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9599932740F35B00C73886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC95997B2740F35A00C73886 /* decimus */;
+			targetProxy = EC9599922740F35B00C73886 /* PBXContainerItemProxy */;
+		};
+		EC95999D2740F35B00C73886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC95997B2740F35A00C73886 /* decimus */;
+			targetProxy = EC95999C2740F35B00C73886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC9599A32740F35B00C73886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9599A42740F35B00C73886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9599A62740F35B00C73886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"decimus/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9599A72740F35B00C73886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"decimus/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC9599A92740F35B00C73886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/decimus.app/decimus";
+			};
+			name = Debug;
+		};
+		EC9599AA2740F35B00C73886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/decimus.app/decimus";
+			};
+			name = Release;
+		};
+		EC9599AC2740F35B00C73886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = decimus;
+			};
+			name = Debug;
+		};
+		EC9599AD2740F35B00C73886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K34VB7KMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitay.decimusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = decimus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9599772740F35A00C73886 /* Build configuration list for PBXProject "decimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9599A32740F35B00C73886 /* Debug */,
+				EC9599A42740F35B00C73886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9599A52740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9599A62740F35B00C73886 /* Debug */,
+				EC9599A72740F35B00C73886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9599A82740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9599A92740F35B00C73886 /* Debug */,
+				EC9599AA2740F35B00C73886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9599AB2740F35B00C73886 /* Build configuration list for PBXNativeTarget "decimusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9599AC2740F35B00C73886 /* Debug */,
+				EC9599AD2740F35B00C73886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC95998A2740F35B00C73886 /* decimus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC95998B2740F35B00C73886 /* decimus.xcdatamodel */,
+			);
+			currentVersion = EC95998B2740F35B00C73886 /* decimus.xcdatamodel */;
+			path = decimus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC9599742740F35A00C73886 /* Project object */;
+}

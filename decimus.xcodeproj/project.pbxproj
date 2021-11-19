@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8A5EA827436AF400EC0AB0 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A5EA727436AF400EC0AB0 /* WorkoutTemplate.swift */; };
 		EC9599802740F35A00C73886 /* decimusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95997F2740F35A00C73886 /* decimusApp.swift */; };
 		EC9599822740F35A00C73886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599812740F35A00C73886 /* ContentView.swift */; };
 		EC9599842740F35B00C73886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9599832740F35B00C73886 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		EC9599962740F35B00C73886 /* decimusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599952740F35B00C73886 /* decimusTests.swift */; };
 		EC9599A02740F35B00C73886 /* decimusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC95999F2740F35B00C73886 /* decimusUITests.swift */; };
 		EC9599A22740F35B00C73886 /* decimusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */; };
+		ECD4FD512743758D00326E83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4FD502743758D00326E83 /* Colors.swift */; };
+		ECD4FD532744BF7400326E83 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4FD522744BF7400326E83 /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC1DFA1627473FC1009408D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC8A5EA727436AF400EC0AB0 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
 		EC95997C2740F35A00C73886 /* decimus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = decimus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC95997F2740F35A00C73886 /* decimusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusApp.swift; sourceTree = "<group>"; };
 		EC9599812740F35A00C73886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +53,8 @@
 		EC95999B2740F35B00C73886 /* decimusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = decimusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC95999F2740F35B00C73886 /* decimusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusUITests.swift; sourceTree = "<group>"; };
 		EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decimusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECD4FD502743758D00326E83 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		ECD4FD522744BF7400326E83 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +105,13 @@
 		EC95997E2740F35A00C73886 /* decimus */ = {
 			isa = PBXGroup;
 			children = (
+				EC1DFA1627473FC1009408D8 /* Info.plist */,
 				EC95997F2740F35A00C73886 /* decimusApp.swift */,
 				EC9599812740F35A00C73886 /* ContentView.swift */,
+				ECD4FD562744BFF200326E83 /* ViewModel */,
+				ECD4FD542744BFE000326E83 /* Model */,
+				ECD4FD552744BFE600326E83 /* View */,
 				EC9599832740F35B00C73886 /* Assets.xcassets */,
-				EC9599882740F35B00C73886 /* Persistence.swift */,
-				EC95998A2740F35B00C73886 /* decimus.xcdatamodeld */,
 				EC9599852740F35B00C73886 /* Preview Content */,
 			);
 			path = decimus;
@@ -131,6 +140,32 @@
 				EC9599A12740F35B00C73886 /* decimusUITestsLaunchTests.swift */,
 			);
 			path = decimusUITests;
+			sourceTree = "<group>";
+		};
+		ECD4FD542744BFE000326E83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC95998A2740F35B00C73886 /* decimus.xcdatamodeld */,
+				EC9599882740F35B00C73886 /* Persistence.swift */,
+				ECD4FD502743758D00326E83 /* Colors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECD4FD552744BFE600326E83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A5EA727436AF400EC0AB0 /* WorkoutTemplate.swift */,
+				ECD4FD522744BF7400326E83 /* Exercise.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECD4FD562744BFF200326E83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9599892740F35B00C73886 /* Persistence.swift in Sources */,
+				ECD4FD512743758D00326E83 /* Colors.swift in Sources */,
 				EC9599822740F35A00C73886 /* ContentView.swift in Sources */,
+				EC8A5EA827436AF400EC0AB0 /* WorkoutTemplate.swift in Sources */,
 				EC95998C2740F35B00C73886 /* decimus.xcdatamodeld in Sources */,
+				ECD4FD532744BF7400326E83 /* Exercise.swift in Sources */,
 				EC9599802740F35A00C73886 /* decimusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +468,11 @@
 				DEVELOPMENT_TEAM = 5K34VB7KMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = decimus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,9 +499,11 @@
 				DEVELOPMENT_TEAM = 5K34VB7KMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = decimus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
